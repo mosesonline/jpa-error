@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 @AutoConfigureEmbeddedDatabase(provider = AutoConfigureEmbeddedDatabase.DatabaseProvider.ZONKY)
 @ActiveProfiles("test")
-class MyEntityServiceIT {
+class MyEntityServiceTest {
     @Autowired
     private MyEntityService myEntityService;
 
